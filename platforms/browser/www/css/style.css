@@ -1,0 +1,155 @@
+body {
+    overflow: hidden;
+}
+
+#navigation {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    background-color: #f0f0f0;
+}
+
+
+.nav_item {
+    width: 25%;
+    height: 65px;
+    background-color: #397faf;
+    background: linear-gradient(to bottom, #4294cb, #397faf);
+    display: inline-block;
+    float: left;
+
+    text-align: center;
+    line-height: 65px;
+
+    color: #f0f0f0;
+    text-shadow: 0 1px 0 #f0f0f0;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.nav_item:nth-child(n+2) {
+    border-left: 1px rgba(42, 89, 124, 0.4) solid;
+}
+
+.nav_item:hover {
+    /*background: linear-gradient(to top, #4294cb, #397faf);*/
+}
+
+.nav_item_image {
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+
+#browser {
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    background-color: #f0f0f0;
+
+    overflow: hidden;
+}
+
+#badInternet {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #f0f0f0;
+
+    color: #4294cb;
+    text-shadow: 0 1px 0 #397faf;
+
+    text-align: center;
+    padding-top: 50%;
+
+    z-index: 900;
+}
+
+#mainContentDiv {
+    overflow: scroll;
+}
+
+#innerBrowser {
+    height: 100%;
+    width: 100%;
+}
+
+.menuPageLi {
+    width: 90%;
+    margin: 10px 5%;
+
+
+    line-height: 20px;
+    padding: 22px 0 23px 0;
+    text-align: center;
+
+    background-color: #f0f0f0;
+
+    color: #4294cb;
+    text-shadow: 0 1px 0 #397faf;
+}
+
+
+#menuPage {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    padding-top: 65px;
+
+    background-color: #4294cb;
+    color: #212121;
+    text-shadow: 0 1px 0 #2E2E2E;
+
+    z-index: 100;
+
+    opacity: 1;
+}
+
+.sliItem {
+    width: 90%;
+    min-width: 90%;
+    margin: 10px 5%;
+
+    line-height: 20px;
+    padding: 22px 0 23px 0;
+    text-align: center;
+
+    background-color: #f0f0f0;
+
+    color: #4294cb;
+    text-shadow: 0 1px 0 #397faf;
+}
+
+.sliItemEmpty {
+    background-color: #4294cb;
+    color: #f0f0f0;
+    text-shadow: 0 1px 0 #ffffff;
+
+}
+
+#loading {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    background: #ffffff url("../img/loading.gif") center no-repeat;
+}
+
+#savedLinks {
+
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #4294cb;
+    color: #212121;
+    text-shadow: 0 1px 0 #2E2E2E;
+
+    z-index: 250;
+}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.oliinyk.mwnb" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MediaWikiNextBrowser</name>
+    <description>
+        A sample wiki.kspu.kr.ua mediawiki client.
+    </description>
+    <author email="vladokoliynyk@gmail.com" href="oliinyk.zzz.com.ua">
+        Vladyslav Oliinyk Development
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+</widget>
